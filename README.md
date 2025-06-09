@@ -99,26 +99,21 @@ This project works with Python 3.7 to 3.9.
 VADER and Gensim are compatible with these versions. For Python 3.10+, minor updates to LDA parameters or tokenization libraries might be needed.
 
 ##🙌 Contributing
-```
+
 Contributions are welcome! Please:
 
 Fork the repo
 
 Create a new branch:
-
-bash
-Copy
-Edit
+```
 git checkout -b feature-name
+```
 Make changes and push:
-
-bash
-Copy
-Edit
+```
 git commit -m "Add feature"
 git push origin feature-name
-Submit a pull request
 ```
+Submit a pull request
 
 ##📌 Conclusion
 
