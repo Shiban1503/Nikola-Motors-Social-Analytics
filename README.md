@@ -69,7 +69,7 @@ Each comment contains:
 
 ---
 
-## ⚙️ Installation
+### ⚙️ Installation
 
 ```bash
 git clone https://github.com/Shiban1503/Nikola-Motors-Social-Analytics.git
@@ -79,7 +79,7 @@ venv\Scripts\activate  # On Windows
 pip install -r requirements.txt
 ```
 
-## 📁 Project Structure
+### 📁 Project Structure
 ```
 ├── data/
 │   └── combined_comments.csv        # Cleaned data
@@ -94,13 +94,13 @@ pip install -r requirements.txt
 └── LICENSE
 ```
 
-##⚠️ Disclaimer
+### ⚠️ Disclaimer
 ---
 This project works with Python 3.7 to 3.9.
 VADER and Gensim are compatible with these versions. For Python 3.10+, minor updates to LDA parameters or tokenization libraries might be needed.
 
 
-##🙌 Contributing
+### 🙌 Contributing
 ---
 Contributions are welcome! Please:
 
@@ -117,6 +117,6 @@ git push origin feature-name
 ```
 Submit a pull request
 
-##📌 Conclusion
+### 📌 Conclusion
 ---
 This project demonstrates how social media analytics can reveal public sentiment and conversation trends around controversial events involving corporate brands. Through Reddit and YouTube analysis, we gain actionable insights into trust erosion, crisis reactions, and brand perception. Businesses and PR teams can use this approach to monitor and respond to digital reputation in real-time.
