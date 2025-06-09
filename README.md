@@ -77,3 +77,33 @@ cd Nikola-Motors-Social-Analytics
 python -m venv venv
 venv\Scripts\activate  # On Windows
 pip install -r requirements.txt
+```
+
+▶️ Usage
+Place the raw data files (or run the scraping notebooks if APIs are available).
+
+Run:
+
+web_scraping_and_cleaning.ipynb for data extraction & cleaning
+
+exploratory_analysis.ipynb for visual insights
+
+topic_modeling_sentiment_analysis.ipynb for final modeling
+
+View generated graphs in /visuals/
+
+📁 Project Structure
+bash
+Copy
+Edit
+├── data/
+│   └── combined_comments.csv        # Cleaned data
+├── notebooks/
+│   ├── 01_scraping.ipynb
+│   ├── 02_eda.ipynb
+│   └── 03_topic_sentiment.ipynb
+├── visuals/
+│   └── *.png                        # All plots and charts
+├── requirements.txt
+├── README.md
+└── LICENSE
