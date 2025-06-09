@@ -93,11 +93,12 @@ pip install -r requirements.txt
 ├── README.md
 └── LICENSE
 ```
+---
 ##⚠️ Disclaimer
 
 This project works with Python 3.7 to 3.9.
 VADER and Gensim are compatible with these versions. For Python 3.10+, minor updates to LDA parameters or tokenization libraries might be needed.
-
+---
 ##🙌 Contributing
 
 Contributions are welcome! Please:
@@ -114,7 +115,7 @@ git commit -m "Add feature"
 git push origin feature-name
 ```
 Submit a pull request
-
+---
 ##📌 Conclusion
 
 This project demonstrates how social media analytics can reveal public sentiment and conversation trends around controversial events involving corporate brands. Through Reddit and YouTube analysis, we gain actionable insights into trust erosion, crisis reactions, and brand perception. Businesses and PR teams can use this approach to monitor and respond to digital reputation in real-time.
