@@ -79,20 +79,6 @@ venv\Scripts\activate  # On Windows
 pip install -r requirements.txt
 ```
 
-##▶️ Usage
-Place the raw data files (or run the scraping notebooks if APIs are available).
-
-Run:
-
-web_scraping_and_cleaning.ipynb for data extraction & cleaning
-
-exploratory_analysis.ipynb for visual insights
-
-topic_modeling_sentiment_analysis.ipynb for final modeling
-
-View generated graphs in /visuals/
-
-
 ## 📁 Project Structure
 ```
 ├── data/
