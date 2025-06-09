@@ -79,7 +79,7 @@ venv\Scripts\activate  # On Windows
 pip install -r requirements.txt
 ```
 
-▶️ Usage
+##▶️ Usage
 Place the raw data files (or run the scraping notebooks if APIs are available).
 
 Run:
@@ -92,10 +92,9 @@ topic_modeling_sentiment_analysis.ipynb for final modeling
 
 View generated graphs in /visuals/
 
-📁 Project Structure
-bash
-Copy
-Edit
+
+## 📁 Project Structure
+```
 ├── data/
 │   └── combined_comments.csv        # Cleaned data
 ├── notebooks/
@@ -107,3 +106,4 @@ Edit
 ├── requirements.txt
 ├── README.md
 └── LICENSE
+```
